@@ -6,7 +6,8 @@ import { CreateProject, ProjectDetails } from '../../models/project.model';
 @Component({
   selector: 'app-editproj',
   templateUrl: './editproj.component.html',
-  styleUrls: ['./editproj.component.sass']
+  styleUrls: ['./editproj.component.sass'],
+  standalone: false
 })
 export class EditprojComponent implements OnInit {
   project: CreateProject = {

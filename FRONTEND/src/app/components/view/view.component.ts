@@ -6,7 +6,8 @@ import { ProjectDetails } from '../../models/project.model';
 @Component({
   selector: 'app-view',
   templateUrl: './view.component.html',
-  styleUrls: ['./view.component.sass']
+  styleUrls: ['./view.component.sass'],
+  standalone: false
 })
 export class ViewComponent implements OnInit {
   project: ProjectDetails | null = null;

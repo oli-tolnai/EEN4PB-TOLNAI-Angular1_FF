@@ -6,7 +6,8 @@ import { UpdateIssueStatus } from '../../models/project.model';
 @Component({
   selector: 'app-edit-issue',
   templateUrl: './edit-issue.component.html',
-  styleUrls: ['./edit-issue.component.sass']
+  styleUrls: ['./edit-issue.component.sass'],
+  standalone: false
 })
 export class EditIssueComponent implements OnInit {
   issueUpdate: UpdateIssueStatus = {

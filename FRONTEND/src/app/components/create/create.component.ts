@@ -6,7 +6,8 @@ import { CreateProject } from '../../models/project.model';
 @Component({
   selector: 'app-create',
   templateUrl: './create.component.html',
-  styleUrls: ['./create.component.sass']
+  styleUrls: ['./create.component.sass'],
+  standalone: false
 })
 export class CreateComponent {
   project: CreateProject = {

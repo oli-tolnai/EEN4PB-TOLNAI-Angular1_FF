@@ -6,7 +6,8 @@ import { Project } from '../../models/project.model';
 @Component({
   selector: 'app-list',
   templateUrl: './list.component.html',
-  styleUrls: ['./list.component.sass']
+  styleUrls: ['./list.component.sass'],
+  standalone: false
 })
 export class ListComponent implements OnInit {
   projects: Project[] = [];

@@ -6,7 +6,8 @@ import { CreateIssue } from '../../models/project.model';
 @Component({
   selector: 'app-add-issue',
   templateUrl: './add-issue.component.html',
-  styleUrls: ['./add-issue.component.sass']
+  styleUrls: ['./add-issue.component.sass'],
+  standalone: false
 })
 export class AddIssueComponent implements OnInit {
   issue: CreateIssue = {
